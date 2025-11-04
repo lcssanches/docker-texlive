@@ -1,5 +1,8 @@
 name: Publish Docker Image
 
+env:
+  REGISTRY: ghcr.io
+  
 on:
   schedule:
     # run on 1th and 15th of each month
